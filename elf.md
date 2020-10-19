@@ -78,7 +78,7 @@ print ("%#x -> base address" % e.address)
 print ("%#x -> entry point" % e.entry)
 print ("%#x -> execve" % e.symbols['execve'])
 
-print "---"
+print ("---")
 e.address = 0x12340000
 
 print ("%#x -> base address" % e.address)
